@@ -1,0 +1,131 @@
+body{
+    background-image: url("pattern.jpg");
+}
+
+header{
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+footer{
+    overflow: hidden;
+    background-color:black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+header img{
+    float: left;
+    position: relative;
+}
+
+header nav{
+    float: right;
+    position: relative;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+background: #ddd;
+color: black;
+}
+
+header nav ul a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.back-to-index{
+    float: right;
+}
+
+section{
+    padding: 50px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+section div#article-list div{
+    
+    background-color: white;
+    border-bottom: 1px solid black;
+    
+}
+
+section div#article-list div a{
+    text-decoration: none;
+    color: black;
+}
+
+section div#article-list div a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+.form-inline-block{
+    width: 500px;
+}
+
+
+
+form textarea{
+    height: 100px;
+}
+
+.input-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+}
+
+.label-input{
+    font-weight: bold;
+    width: 125px;
+    display:inline-block;
+}
+
+.form-inline-block input[type=text],textarea{
+    width: 300px;
+}
+
+
+
