@@ -105,7 +105,6 @@ console.log("Release 1 =========================================================
 class Frog extends Animal{
     constructor(name){
         super(name);
-        super._legs = 2;
         super._cold_blooded = true;
     }
     jump(){
