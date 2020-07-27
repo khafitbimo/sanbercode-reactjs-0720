@@ -140,7 +140,7 @@ sungokong.yell()
 console.log("Soal 5 ============================================================================");
 
 class Clock{
-    constructor(template){
+    constructor({template}){
         this._template = template;
     }
 
@@ -156,7 +156,7 @@ class Clock{
         var secs = date.getSeconds();
         if (secs < 10) secs = '0' + secs;
 
-        var output = this._template.template.replace('h',hours).replace('m',mins).replace('s',secs);
+        var output = this._template.replace('h',hours).replace('m',mins).replace('s',secs);
         console.log(output);
     }
 
