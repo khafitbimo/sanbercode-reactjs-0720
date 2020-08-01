@@ -1,48 +1,59 @@
 <html>
     <head>
         <style type="text/css">
-            body{
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
+            .container{
+                padding: 10px;
                 text-align: center;
             }
 
-            .title{
-                text-align: center;
-            }
-
-            form{
+            .form-border{
+                padding: 10px;
+                border: 1px solid black;
+                border-radius: 10px;
                 display: inline-block;
+            }
+
+            .label{
+                font-weight: bold;
+            }
+
+            button{
+                border-radius: 10px;
             }
 
         </style>
     </head>
     <body>
-        <h2 class="title">Form Pembelian Buah</h2>
-        <form action="">
-            <table>
-                <tr>
-                    <td width="200px">Nama Pelanggan</td>
-                    <td><input type="text"/></td>
-                </tr>
-                <tr>
-                    <td width="200px">Daftar Item</td>
-                    <td>
-                        <input type="checkbox" id="semangka" name="semangka"/><label for="semangka">Semangka</label><br>
-                        <input type="checkbox" id="jeruk" name="jeruk"/><label for="jeruk">Jeruk</label><br>
-                        <input type="checkbox" id="nanas" name="nanas"/><label for="nanas">Nanas</label><br>
-                        <input type="checkbox" id="salak" name="salak"/><label for="salak">Salak</label><br>
-                        <input type="checkbox" id="anggur" name="anggur"/><label for="anggur">Anggur</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <button type="submit">Kirim</button>
-                    </td>
-                </tr>
-            </table>
-        </form>
+        <div class="container">
+
+     
+        <div class="form-border">
+            <h2 class="title"><div class="label">Form Pembelian Buah</div></h2>
+            <form action="">
+                <table>
+                    <tr>
+                        <td width="200px"><div class="label">Nama Pelanggan</div></td>
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td width="200px"><div class="label">Daftar Item</div></td>
+                        <td>
+                            <input type="checkbox" id="semangka" name="semangka"/><label for="semangka">Semangka</label><br>
+                            <input type="checkbox" id="jeruk" name="jeruk"/><label for="jeruk">Jeruk</label><br>
+                            <input type="checkbox" id="nanas" name="nanas"/><label for="nanas">Nanas</label><br>
+                            <input type="checkbox" id="salak" name="salak"/><label for="salak">Salak</label><br>
+                            <input type="checkbox" id="anggur" name="anggur"/><label for="anggur">Anggur</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">Kirim</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
         
+    </div>
     </body>
 </html>
